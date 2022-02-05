@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Poppins;
+    src: url('Poppins-Regular.ttf') format('truetype');
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 300px;
+    min-width: 200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-perfil {
+    border-radius: 100%;
+}
+
+.nome-usuario {
+    color: #302F3D;
+    text-align: center;
+    font-family: 'Poppins', serif;
+}
+
+.caixa-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-link {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+    font-family: 'Poppins', serif;
+}
+
+.txt-link {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.icones {
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 0px;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+}
