@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Poppins;
+    src: url('Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    background: #C8C8C8;
+    font-family: 'Poppins', serif;
+}
+
+main {
+    display: flex;
+    max-width: 1000px;
+    flex-grow: 1;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.exibir {
+    flex-grow: 1;
+}
+
+.imagem {
+    flex-grow: 1;
+}
+
+.titulo-evento {
+    color: #6C63FF;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: TSCu_Comic, Poppins, serif;
+}
+
+.info {
+    color: #302F3D;
+    text-align: center ;
+    font-size: 0.9rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+
+    color: white;
+    background-color: #17109b;
+    border-radius: 1.2rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    content: "";
+    background: #312ab2;
+
+}
+.relogio{
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    color: grey;
+    font-size: 0.8rem;
+}
+#campo_dias,#relogio_horas,#relogio_minutos,#relogio_segundos{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder ;
+}
