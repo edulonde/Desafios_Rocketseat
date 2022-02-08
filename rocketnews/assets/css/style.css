@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+  --bg-button-color-hover: #774adf;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background-color: var(--body-bg-color);
+}
+
+main {
+  padding: 0 30px;
+  width: 55%;
+}
+
+.logo {
+  margin: 35px 0 55px 0;
+}
+
+.logo img {
+  max-width: 60%;
+}
+
+.content {
+  max-width: 600px;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.content h1 {
+  color: var(--title-color);
+  font-size: 1.5rem;
+}
+
+.content p {
+  letter-spacing: 0.5px;
+  font-size: .8rem;
+  color: var(--text-color);
+  margin-top: 8px;
+}
+
+.content p:nth-child(2) {
+  font-weight: bold;
+}
+
+input::placeholder {
+  font-family: 'Work Sans', Arial, Helvetica, serif;
+}
+
+.email {
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: var(--form-color);
+}
+
+.email label {
+  max-width: 125px;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.email input {
+  font-size: .9rem;
+  min-width: 58vw;
+  padding: 12px 20px 12px 15px;
+  border: 0;
+  border-left: 5px solid var(--title-color);
+  outline: transparent;
+}
+
+.form-email {
+  height: 45px;
+  z-index: 2;
+  display: flex;
+  margin-bottom: 35px;
+  box-shadow: 3px 3px 6px #161616;
+}
+.form-email button {
+  padding: 0px 10px;
+  border: 0;
+  background-color: var(--bg-button-color);
+  cursor: pointer;
+}
+
+.form-email button:hover {
+  transition: all ease 0.5s;
+  background-color: var(--bg-button-color-hover);
+}
+
+.form-email button img {
+  padding: 3px;
+  height: 30px;
+}
+
+a {
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+  color: var(--bg-button-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a img {
+  margin-left: 5px;
+  max-width: 16px;
+  max-height: 16px;
+}
+
+section {
+  width: 45%;
+  background-image: url(../image/read_news.jpg);
+  background-size: cover;
+  background-position: 70%;
+}

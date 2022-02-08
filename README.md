@@ -26,4 +26,10 @@ Mas a proposta era diferente: era a de o menu se transformar , mostrando os íco
 EU encntrei o código pronto e achei ele muito perfeito, embora eu percebi que ele fica desconfigurado com resoluções menores. 
 Seria legal mais para frente trabalhar em melhorar este código, e até usar ele com  exemplo para próximoos códigos.
 
+## RocketNews
+
+Este exercício de página única foi muito legal para explorar a divisão entre a main e
+uma section. Foi criado uma main com 55% de width e uma section com 45%.
+A imagem da section foi inserida pel css, o que deixa o html mais limpo. 
+Foi utilizado o z-index para trazer o campo de e-mail na frente da section.
 
